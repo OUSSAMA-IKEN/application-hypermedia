@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TP5 | Formulaire</title>
+  </head>
+  <body>
+    <!-- Formulaire avance -->
+    <h1>Formulaire d'inscription avance</h1>
+    <form action="">
+      <fieldset>
+        <legend>information personnel</legend>
+
+        <label for="">Nom:</label>
+        <input type="text" />
+        <label for="">Prenom:</label>
+        <input type="text" />
+        <label for="">Date de naissance:</label>
+        <input type="date" />
+        <br />
+        <br />
+
+        <label for="">Telephone:</label>
+        <input type="tel" />
+        <label for="">Site web:</label>
+        <input type="url" placeholder="http://" />
+      </fieldset>
+
+      <fieldset>
+        <legend>Preferences</legend>
+
+        <label for="">Formation souhitee :</label>
+        <select name="formations">
+          <option value="">Developpement web</option>
+          <option value="">Data Science</option>
+          <option value="">Intelligence artificielle</option>
+        </select>
+
+        <label for="">couleur preferee :</label>
+        <input type="color" />
+        <br />
+        <br />
+        <label for="">Niveau d'etude :</label>
+        <input type="number" />
+        <label for="">Fichier CV :</label>
+        <input type="file" accept=".pdf" />
+      </fieldset>
+      <fieldset>
+        <legend>Informations Complementaires</legend>
+        <label for="">Centres d'interet:</label>
+
+        <input type="checkbox" name="developpement" />
+        <label for="developpement">Developpement web</label>
+
+        <input type="checkbox" name="data_science" />
+        <label for="data_science">Data Science</label>
+
+        <input type="checkbox" name="ai" id="ai" />
+        <label for="ai">Intelligence artificielle</label>
+
+        <input type="checkbox" name="sport" id="sport" />
+        <label for="sport">Sport</label>
+        <br />
+        <br />
+        <label for="">Remarques:</label>
+        <textarea
+          name="remarques"
+          rows="5"
+          cols="32"
+          placeholder="votre remarque"
+        >
+        </textarea>
+      </fieldset>
+
+      <button type="submit">Envoyer</button>
+    </form>
+  </body>
+</html>
