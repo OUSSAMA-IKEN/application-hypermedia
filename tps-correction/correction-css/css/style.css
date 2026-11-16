@@ -1,0 +1,34 @@
+/* Exercice 1*/
+h1 {
+  color: #7b001d;
+  text-align: center;
+}
+h3 {
+  color: green;
+}
+p {
+  color: #444444;
+}
+body {
+  background-color: rgba(25, 255, 82, 0.398);
+  font-family: Arial, sans-serif;
+}
+#exercice1 {
+  background-color: rgb(6, 183, 243);
+}
+
+/* Exercice 2 =====================  */
+#exercice1 h1 {
+  font-size: 32px;
+}
+
+.formation h3 {
+  font-size: 24px;
+  font-weight: bolder;
+}
+.description {
+  font-style: italic;
+  text-align: justify;
+  line-height: 1.8;
+  letter-spacing: 3px;
+}
