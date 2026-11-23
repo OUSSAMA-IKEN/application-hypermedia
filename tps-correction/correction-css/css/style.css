@@ -26,9 +26,54 @@ body {
   font-size: 24px;
   font-weight: bolder;
 }
+
 .description {
   font-style: italic;
   text-align: justify;
   line-height: 1.8;
   letter-spacing: 3px;
+}
+/* exercice 3 */
+/* question 1  */
+body {
+  background-image: linear-gradient(
+    to right,
+    rgb(88, 88, 233),
+    rgb(245, 96, 245)
+  );
+}
+
+/* question 2 */
+#exercice1 h1 {
+  color: darkblue;
+}
+
+/* question 3 */
+.domaine h3 {
+  color: violet;
+}
+
+/* question 4 */
+.domaine-web {
+  background-color: rgb(114, 112, 112, 0.7);
+}
+
+/* question 5 */
+.domaine-data {
+  background-color: rgb(73, 73, 243, 0.7);
+}
+
+/* question 6 */
+.domaine-ai {
+  background-color: rgba(113, 10, 224, 0.7);
+}
+
+/* question 8 */
+.nos_domaines {
+  background-image: url(./images/image1.jpg);
+  background-position: center;
+  background-size: contain;
+
+
+
 }

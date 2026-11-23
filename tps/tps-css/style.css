@@ -1,33 +1,31 @@
-
 /* =================================
    EXERCICE 1 : COULEURS
 ================================= */
 
 /* Arrière-plan général de la page */
 body {
-    background-color: #f2f2f2;
+  background-color: #f2f2f2;
 }
 
 /* Première section */
 #exercice1 {
-    background-color: lightblue;
+  background-color: lightblue;
 }
 
 /* Titre principal */
 #exercice1 h1 {
-    color: blue;
+  color: blue;
 }
 
 /* Sous-titre */
 #exercice1 h2 {
-    color: green;
+  color: green;
 }
 
 /* Paragraphes */
 #exercice1 p {
-    color: #444444;
+  color: #444444;
 }
-
 
 /* =================================
    EXERCICE 2 : FORMATAGE DES POLICES
@@ -35,28 +33,27 @@ body {
 
 /* Police générale */
 body {
-    font-family: Arial, sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 /* Titre principal */
 #exercice1 h1 {
-    font-size: 32px;
-    text-align: center;
+  font-size: 32px;
+  text-align: center;
 }
 
 /* Titres des formations */
 .formation h3 {
-    font-size: 24px;
-    font-weight: bold;
+  font-size: 24px;
+  font-weight: bold;
 }
 
 /* Descriptions */
 .description {
-    font-style: italic;
-    text-align: justify;
-    line-height: 1.8; 
+  font-style: italic;
+  text-align: justify;
+  line-height: 1.8;
 }
-
 
 /* =================================
    EXERCICE 3 : ARRIÈRE-PLANS
@@ -64,45 +61,40 @@ body {
 
 /* Dégradé sur toute la page */
 body {
-    background-image: linear-gradient(
-        to right,
-        #dbeafe,
-        #e9d5ff
-    );
+  background-image: linear-gradient(to right, #dbeafe, #e9d5ff);
 }
 
 /* Titre principal */
 #exercice1 h1 {
-    color: darkblue;
+  color: darkblue;
 }
 
 /* Section des domaines */
 #exercice3 {
-    background-image: url("../images/formation.jpg");
-    background-size: cover;
-    background-position: center;
+  background-image: url("../images/formation.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 /* Titres des domaines */
 .domaine h3 {
-    color: purple;
+  color: purple;
 }
 
 /* Arrière-plan semi-transparent blanc */
 .domaine-web {
-    background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.7);
 }
 
 /* Arrière-plan semi-transparent bleu */
 .domaine-data {
-    background-color: rgba(37, 99, 235, 0.7);
+  background-color: rgba(37, 99, 235, 0.7);
 }
 
 /* Arrière-plan semi-transparent violet */
 .domaine-ia {
-    background-color: rgba(124, 58, 237, 0.7);
+  background-color: rgba(124, 58, 237, 0.7);
 }
-
 
 /* =================================
    EXERCICE 4 : BORDURES
@@ -110,23 +102,23 @@ body {
 
 /* Bordure du bloc Développement Web */
 .domaine-web {
-    border: 3px solid blue;
-    border-radius: 15px;
+  border: 3px solid blue;
+  border-radius: 15px;
 }
 
 /* Bordure du bloc Data Analysis */
 .domaine-data {
-    border: 3px dotted green;
-    border-radius: 15px 15px 0 0;
+  border: 3px dotted green;
+  border-radius: 15px 15px 0 0;
 }
 
 /* Bordure du bloc Intelligence Artificielle */
 .domaine-ia {
-    border: 3px dashed purple;
-    border-radius: 30px;
+  border: 3px dashed purple;
+  border-radius: 30px;
 }
 
 /* Bordure inférieure du titre principal */
 #exercice1 h1 {
-    border-bottom: 3px solid darkblue;
+  border-bottom: 3px solid darkblue;
 }
